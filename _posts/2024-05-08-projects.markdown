@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: posts
 title:  "Projects"
-permalink: /projects
+date: 2024-05-08 10:00:00 -0400
 ---
 
 ## Spreadterm (Fall 2023)
@@ -22,7 +22,7 @@ the Software Engineering course (which I took in the Fall of 2022) as the second
 on a role as product owner, and my group mates and I (there were about 5 of us) participated in three
 two week long scrum sprints, including creating stories, epics and plotting out how long we thought 
 various stories would take. My primary role in this project was in the backend, creating the code for 
-managing the settings and evaluating the complex numbers, which can be seen as being done by my school 
+managing the settings and evaluating the complex arithmetic, which can be seen as being done by my school 
 github account, bushmaaj. While this project has not been modified in about 2 years, I have learned much 
 more on good programming design, so I intend on spending this summer fixing bugs and cleaning up the code.
 

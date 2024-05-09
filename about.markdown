@@ -4,19 +4,23 @@ title: About
 permalink: /about/
 ---
 
-Hi! I am AJ Bushman, currently a third year Computer Science major (Math and Logic & Reasoning minors) at James Madison University.  
+Hi! I am AJ Bushman, currently a third year Computer Science major (Math and Logic & Reasoning minors) at James Madison University.
+I am currently interested in finding a CS internship. My primary interests in the field
+of Computer Science has been primarily back-end work, most enjoying my projects
+in classes like Artificial Intelligence, Data Structures and Algorithms, and the lexer/parser
+I created for Spreadterm.
+
 ## Resume
 ### Contact
 Alexander "AJ" Bushman  
 Email: bushmaaj at dukes dot jmu dot edu  
 Phone number available upon request  
-### Objective
-A driven self-starter with more than 2 years of computer science experience, both individual and in a team, looking for a fun, exciting position where I can gain valuable experience, utilizing the problem-solving, programming, and critical thinking skills learned at James Madison University and previous jobs.
 
 ### Projects
+(For more on my projects see [here][projects])
 * Rimplex: Java Swing-based complex number calculator developed in a team using a Scrum-based project management system, as well as a Git based workflow. Developed for a fictional product owner, including multiple two week long Agile/Scrum sprints and biweekly product demonstrations.
 * Y86: Virtual CPU program to read and execute Mini-ELF files in the Y86 (abbreviated x86) architecture in C. Ability to run, show program in assembly format, and print contents of file to command line.
-* GridKid: Ncurses based spreadsheet application written in Rust. Capable of processing numerical and logical expressions within cells and process data within multiple cells.
+* Spreadterm: Ncurses based spreadsheet application written in Rust. Capable of processing numerical and logical expressions within cells and process data within multiple cells.
 * DHCP: C-based DHCP server and client pair capable of leasing multiple IPv4 addresses.
 
 ### Skills
@@ -69,3 +73,4 @@ A driven self-starter with more than 2 years of computer science experience, bot
 * Full time position responsible for instructing students in kindergarten through 8th grade in science, technology, coding, engineering and math.
 * Gained valuable customer service, problem solving and conflict resolution skills
 
+[projects]: https://meepcode.github.io/projects
