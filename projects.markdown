@@ -10,8 +10,6 @@ permalink: /projects
 storing data (strings, numbers, booleans and cell references) within cells, and accessing data within other cells. The project is written in Rust
 and uses ncurses bindings to display it to the terminal. The project was creted for a certain CS class under a different name, however
 the professor requested that when I posted it online I did not include the original name or the name of the class. 
-There is room for more improvement so I am planning on spending this summer to include more features, such as saving and loading grids, variables, functions, and 
-arbitrary size grids, as well as optimizing the program.
 
 ## Rimplex (Fall 2022)
 
@@ -23,8 +21,7 @@ on a role as product owner, and my group mates and I (there were about 5 of us) 
 two week long scrum sprints, including creating stories, epics and plotting out how long we thought 
 various stories would take. My primary role in this project was in the backend, creating the code for 
 managing the settings and evaluating the complex arithmetic, which can be seen as being done by my school 
-github account, bushmaaj. While this project has not been modified in about 2 years, I have learned much 
-more on good programming design, so I intend on spending this summer fixing bugs and cleaning up the code.
+github account, bushmaaj.
 
 ## Pacman AI Agent (Spring 2024)
 
@@ -41,7 +38,7 @@ according to the DHCP specifications. Certain code samples available upon reques
 ## Dukesh (Fall 2023)
 
 Dukesh is a shell written in C that includes built-in utilities such as cd, echo (capable of parsing newlines and environment variables), pwd, quit, which, export, 
-unset, and echo. It was able to save the return code of the previous run utility or binary with $?. As well, the environment contained standalone utilities such as ls, 
+unset, and echo. It is able to save the return code of the previous run utility or binary with $?. As well, the environment contained standalone utilities such as ls, 
 head, and env. Certain code samples available upon request.
 
 ## Y86 (Spring 2023)
