@@ -1,0 +1,91 @@
+{
+    "categories": [
+        {
+            "name": "Full Stack",
+            "visible": false,
+            "projects": [
+                {
+                    "visible": false,
+                    "name": "Cantus Ex Corde",
+                    "description": "Website application for chanting and praying the Liturgy of the Hours, and for creating pamphlets."
+                }
+            ]
+        },
+        {
+            "name": "Front-End",
+            "visible": true,
+            "projects": [
+                {
+                    "name": "Wardrobe Whiz",
+                    "url": "https://github.com/meepcode/wardrobe-whiz",
+                    "description": "Mock website capable of CRUD (Create, Read, Update, Delete) and asyncronous API calls to shopping websites for creating outfits. Written in HTML, CSS, and JS with Bootstrap and passes accessibility checks."
+                },
+                {
+                    "name": "Personal Website",
+                    "url": "https://github.com/meepcode/meepcode.github.io",
+                    "description": "My personal website (the one that you are on currently!) hosted using GitHub Pages. Written by hand using React and Bootstrap."
+                }
+            ]
+        },
+        {
+            "name": "Back-End",
+            "visible": true,
+            "projects": [
+                {
+                    "name": "Hotel Database",
+                    "url": "https://github.com/meepcode/Hotel-Database",
+                    "description": "Mock SQL-based database written with a front-end in Python. Created to be able to manage the database for a fictional hotel chain including:",
+                    "listItems": [
+                        "Reserving rooms",
+                        "Check-in/Check-out",
+                        "Employee Data",
+                        "Managing cleaning schedule of rooms",
+                        "Additional charges on customer bill"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Machine Learning",
+            "visible": true,
+            "projects": [
+                {
+                    "name": "LLM Embedding",
+                    "url": "https://github.com/meepcode/LLM-Embedding",
+                    "description": "Machine learning model for embeddings written in Python using Keras and Tensorflow and trained on the HuggingFace Wikipedia dataset. It was trained using the same method as GLoVe."
+                }
+            ]
+        },
+        {
+            "name": "Application",
+            "visible": true,
+            "projects": [
+                {
+                    "name": "Spreadterm",
+                    "url": "https://github.com/meepcode/spreadterm",
+                    "description": "TUI-based spreadsheet application written in Rust and ncurses. Capable of:",
+                    "listItems": [
+                        "Processing numerical expressions",
+                        "Processing boolean expressions",
+                        "Referencing the values within other cells",
+                        "Holding text within cells"
+                    ]
+                },
+                {
+                    "name": "Rimplex",
+                    "url": "https://github.com/meepcode/rimplex",
+                    "description": "Java Swing-based calculator capable of processing and handling complex numbers. Written using  Other features include:",
+                    "listItems": [
+                        "Printing results to a printer",
+                        "Help pages",
+                        "Handling Localization"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Low Level",
+            "visible": false
+        }
+    ]
+}
