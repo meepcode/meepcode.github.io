@@ -1,0 +1,54 @@
+/* Theme based on Selenized Light */
+
+:root {
+  --bg-0: #fbf3db;
+  --bg-1: #ece3cc;
+  --bg-2: #d5cdb6;
+  --dim-0: #909995;
+  --fg-0: #53676d;
+  --fg-1: #3a4d53;
+
+  --red: #d2212d;
+  --green: #489100;
+  --yellow: #ad8900;
+  --blue: #0072d4;
+  --magenta: #ca4898;
+  --cyan: #009c8f;
+  --orange: #c25d1e;
+  --violet: #8762c6;
+
+  --br-red: #cc1729;
+  --br-green: #428b00;
+  --br-yellow: #a78300;
+  --br-blue: #006dce;
+  --br-magenta: #c44392;
+  --br-cyan: #00978a;
+  --br-orange: #bc5819;
+  --br-violet: #825dc0;
+}
+
+body {
+    background-color: var(--bg-0);
+    color: var(--fg-0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--fg-1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.list-group, .list-group-item {
+    background-color: inherit;
+    color: inherit;
+}
+
+a {
+    color: var(--blue)
+}
+
+a:visited {
+    color: var(--br-violet)
+}
