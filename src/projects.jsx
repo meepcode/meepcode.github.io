@@ -1,10 +1,7 @@
 import { StrictMode } from "react";
 // import { createRoot } from "react-dom/client";
-import Header from "./Header";
 import { Fragment } from "react";
 
-import './index.js'
-import ListGroup from "react-bootstrap/ListGroup";
 import projectData from '/assets/json/projects.json';
 
 function Projects() {
@@ -14,9 +11,9 @@ function Projects() {
     const categories = visibleCategories.map(category => 
         <Fragment key={category.name}>
             <h3>{category.name}</h3>
-            <ListGroup as="ul" variant="flush">
+            <ul>
                 {category.projects.filter(project => project.visible !== false).map( project =>
-                    <ListGroup.Item as="li" key={project.name}>
+                    <li>
                         {
                             project.url ? (
                                 <a href={project.url}><strong>{project.name}</strong></a>
@@ -40,9 +37,9 @@ function Projects() {
                                 </ul>
                             ) : (<></>)
                         }
-                    </ListGroup.Item>
+                    </li>
                 )}
-            </ListGroup>
+            </ul>
         </Fragment>
     );
 
