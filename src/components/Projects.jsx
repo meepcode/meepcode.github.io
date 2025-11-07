@@ -1,34 +1,35 @@
-import { StrictMode } from "react";
-// import { createRoot } from "react-dom/client";
 import { Fragment } from "react";
 
 import projectData from '/assets/json/projects.json';
+import LongText from './LongText.jsx';
 
 function Projects() {
     const visibleCategories = projectData.categories.filter(category => 
         category.visible === true
     );
     const categories = visibleCategories.map(category => 
-        <Fragment key={category.name}>
+        <div key={category.name} className='category'>
             <h3>{category.name}</h3>
-            <ul>
+            <ul className='projects'>
                 {category.projects.filter(project => project.visible !== false).map( project =>
-                    <li>
+                    <li className='categoryItem' key={project.name}>
+                        <h4>{project.name}</h4>
                         {
-                            project.url ? (
-                                <a href={project.url}><strong>{project.name}</strong></a>
-                            ) : (
-                                <strong>{project.name}</strong>
+                            (project.url || project.sourceCode) && (
+                                <ul className='horizontal'>
+                                    { project.url && (<li><a href={project.url}>Website</a></li>) }
+                                    { project.sourceCode && (<li><a href={project.sourceCode}>Source Code</a></li>) }
+                                </ul>
                             )
                         }
                         {
-                            project.description ? (
-                                <p>
-                                    {project.description}
-                                </p>
-                            ) : (<></>)
+                            project.description && (
+                                    <LongText>
+                                        {project.description}
+                                    </LongText>
+                            )
                         }
-                        {
+                        {/* {
                             project.listItems ? (
                                 <ul>
                                     {project.listItems.map(item => 
@@ -36,11 +37,11 @@ function Projects() {
                                     )}
                                 </ul>
                             ) : (<></>)
-                        }
+                        } */}
                     </li>
                 )}
             </ul>
-        </Fragment>
+        </div>
     );
 
     return (
