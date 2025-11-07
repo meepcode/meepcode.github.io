@@ -2,8 +2,12 @@
     "categories": [
         {
             "name": "Full Stack",
-            "visible": false,
+            "visible": true,
             "projects": [
+                {
+                    "name": "GoodHood",
+                    "description": "Data visualization tool to help potential home buyers make informed decisions abut where to move."
+                },
                 {
                     "visible": false,
                     "name": "Cantus Ex Corde",
@@ -16,14 +20,20 @@
             "visible": true,
             "projects": [
                 {
+                    "name": "Memory Card Game",
+                    "sourceCode": "https://github.com/meepcode/memory-card-game",
+                    "url": "https://meepcode.github.io/memory-card-game",
+                    "description": "Simple card game written using React and Typescript. Deals a hand of cards for the user to click, and the user must click a different card each hand to win. Clicking the same card twice in one game is a loss. Card images and details fetched using async/await from PokeAPI."
+                },
+                {
                     "name": "Wardrobe Whiz",
-                    "url": "https://github.com/meepcode/wardrobe-whiz",
+                    "sourceCode": "https://github.com/meepcode/wardrobe-whiz",
                     "description": "Mock website capable of CRUD (Create, Read, Update, Delete) and asyncronous API calls to shopping websites for creating outfits. Written in HTML, CSS, and JS with Bootstrap and passes accessibility checks."
                 },
                 {
                     "name": "Personal Website",
-                    "url": "https://github.com/meepcode/meepcode.github.io",
-                    "description": "My personal website (the one that you are on currently!) hosted using GitHub Pages. Written by hand using React and Bootstrap."
+                    "sourceCode": "https://github.com/meepcode/meepcode.github.io",
+                    "description": "My personal website (the one that you are on currently!) hosted using GitHub Pages. Written by hand using React."
                 }
             ]
         },
@@ -33,15 +43,8 @@
             "projects": [
                 {
                     "name": "Hotel Database",
-                    "url": "https://github.com/meepcode/Hotel-Database",
-                    "description": "Mock SQL-based database written with a front-end in Python. Created to be able to manage the database for a fictional hotel chain including:",
-                    "listItems": [
-                        "Reserving rooms",
-                        "Check-in/Check-out",
-                        "Employee Data",
-                        "Managing cleaning schedule of rooms",
-                        "Additional charges on customer bill"
-                    ]
+                    "sourceCode": "https://github.com/meepcode/Hotel-Database",
+                    "description": "Mock SQL-based database written with a front-end in Python. Created to be able to manage the database for a fictional hotel chain including managing rooms, reservations, employees, billing, and services."
                 }
             ]
         },
@@ -51,7 +54,7 @@
             "projects": [
                 {
                     "name": "LLM Embedding",
-                    "url": "https://github.com/meepcode/LLM-Embedding",
+                    "sourceCode": "https://github.com/meepcode/LLM-Embedding",
                     "description": "Machine learning model for embeddings written in Python using Keras and Tensorflow and trained on the HuggingFace Wikipedia dataset. It was trained using the same method as GLoVe."
                 }
             ]
@@ -62,29 +65,18 @@
             "projects": [
                 {
                     "name": "Spreadterm",
-                    "url": "https://github.com/meepcode/spreadterm",
-                    "description": "TUI-based spreadsheet application written in Rust and ncurses. Capable of:",
-                    "listItems": [
-                        "Processing numerical expressions",
-                        "Processing boolean expressions",
-                        "Referencing the values within other cells",
-                        "Holding text within cells"
-                    ]
+                    "sourceCode": "https://github.com/meepcode/spreadterm",
+                    "description": "TUI-based spreadsheet application written in Rust and ncurses."
                 },
                 {
                     "name": "Rimplex",
-                    "url": "https://github.com/meepcode/rimplex",
-                    "description": "Java Swing-based calculator capable of processing and handling complex numbers. Written using  Other features include:",
-                    "listItems": [
-                        "Printing results to a printer",
-                        "Help pages",
-                        "Handling Localization"
-                    ]
+                    "sourceCode": "https://github.com/meepcode/rimplex",
+                    "description": "Java Swing-based calculator capable of processing and handling complex numbers. Written in three mock Agile/Scrum sprints."
                 }
             ]
         },
         {
-            "name": "Low Level",
+            "name": "Systems",
             "visible": false
         }
     ]
