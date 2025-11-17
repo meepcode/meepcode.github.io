@@ -6,8 +6,8 @@
             "projects": [
                 {
                     "name": "GoodHood (Current Volunteer Project)",
-                    "url": "https://www.goodhood.io/",
-                    "description": "Data visualization tool to help potential home buyers make informed decisions about where to move. This is an unpaid, volunteer project that I am working with the project lead on, including code reviews on GitHub. My improvenements included implementing features in React, such as Authentication dialogues, as well as bug-fixes. Additionally, I have implemented data pipelines to process test score data for public schools in Virginia as part of school quality metrics using Python with Pandas, which we intend on generalizing as best possible to the whole country. Currently, I am working on writing test cases for the website using React's TestingLibrary, as well as partially desigining the database backend to store and process the testing metrics."
+                    "url": "https://goodhood.io",
+                    "description": "React-based data visualization website to help potential house buyers make informed decisions about the local neighborhood and area they wish to move. I am coordinating directly with the project lead on this, including bug fixes, implementing features, and partaking in code reviews. My contributions so far have been creating and modifying authentication interfaces, and developing data pipelines in Python using Pandas for creation of school quality metrics using test scores of Virginia schools. My current future planned improvements are to generalize the data pipelines to the whole country's schools, as well as to implement testing code using React's TestingLibrary."
                 }
             ]
         },
