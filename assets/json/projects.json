@@ -5,13 +5,9 @@
             "visible": true,
             "projects": [
                 {
-                    "name": "GoodHood",
-                    "description": "Data visualization tool to help potential home buyers make informed decisions abut where to move."
-                },
-                {
-                    "visible": false,
-                    "name": "Cantus Ex Corde",
-                    "description": "Website application for chanting and praying the Liturgy of the Hours, and for creating pamphlets."
+                    "name": "GoodHood (Current Volunteer Project)",
+                    "url": "https://www.goodhood.io/",
+                    "description": "Data visualization tool to help potential home buyers make informed decisions about where to move. This is an unpaid, volunteer project that I am working with the project lead on, including code reviews on GitHub. My improvenements included implementing features in React, such as Authentication dialogues, as well as bug-fixes. Additionally, I have implemented data pipelines to process test score data for public schools in Virginia as part of school quality metrics using Python with Pandas, which we intend on generalizing as best possible to the whole country. Currently, I am working on writing test cases for the website using React's TestingLibrary, as well as partially desigining the database backend to store and process the testing metrics."
                 }
             ]
         },
